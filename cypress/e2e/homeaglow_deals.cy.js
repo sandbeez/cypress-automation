@@ -11,7 +11,6 @@ describe('new deal voucher', () => {
 
     it('get a new voucher deal', () => {
 
-        dealsPage.navigate();
         dealsPage.inputZipCode(94949);
         dealsPage.clickGoButton();
         cy.contains('signed up for Homeaglow Staging in the last 30 days!');
