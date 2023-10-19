@@ -9,7 +9,7 @@ describe('new deal voucher', () => {
         dealsPage.navigate;
     })
 
-    it('get new deal voucher', () => {
+    it('get a new voucher deal', () => {
 
         dealsPage.navigate();
         dealsPage.inputZipCode(94949);
@@ -24,8 +24,6 @@ describe('new deal voucher', () => {
         dealsPage.clickSubmitButton;
         cy.contains('Voucher and Membership Details')
 
-        
-        
         
      })
  }) 
